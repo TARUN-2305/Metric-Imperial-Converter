@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <title>Unit Converter</title>
+        <link rel="stylesheet" href="unit_converter.css">
+    </head>
+    <body>
+        <main>
+            <div id="namespace">
+                <p id="title">METRIC/IMPERIAL UNIT CONVERTER</p>
+                <input type="number" name="magnitude" id="magnitude">
+                <button id="convertbtn">CONVERT</button>
+            </div>
+            <div id="container">
+                <div class="contain" id="item1">
+                    <p class="contain_name" id="item1_name">Length (Meter/Feet)</p>
+                    <p class="contain_value" id="item1_value"></p>
+                </div>
+                <div class="contain" id="item2">
+                    <p class="contain_name" id="item2_name">Volume (Liter/Gallon)</p>
+                    <p class="contain_value" id="item2_value"></p>
+                </div>
+                <div class="contain" id="item3">
+                    <p class="contain_name" id="item3_name">Mass (Kilogram/Pound)</p>
+                    <p class="contain_value" id="item3_value"></p>
+                </div>
+            </div>
+            <script src="unit_converter.js"></script>
+        </main>
+    </body>
+</html>
+<!-- meter = 3.281 feet
+Liter = 0.264 gallon
+kilogram = 2.204 pound -->
